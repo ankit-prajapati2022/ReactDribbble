@@ -1,0 +1,17 @@
+.DriNav-main {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: inset 0px -1px 0px #e3e3e3;
+}
+
+.DriNav-main * {
+  box-sizing: border-box;
+}
+
+.DriNav-main .DriNav-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+  margin-left: 24px;
+}
