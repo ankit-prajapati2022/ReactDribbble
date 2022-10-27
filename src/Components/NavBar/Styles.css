@@ -34,9 +34,34 @@
 .DriNavCon-left--nav .DriNavCon-left--nav-item {
   display: flex;
   align-items: center;
-  padding: 30px 6px;
+  padding: 30px 10px;
   color: #6e6d7a;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
+}
+
+.DriNavCon-right {
+  display: flex;
+  align-items: center;
+}
+
+.DriNavCon-right .DriNavCon-right--item {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.DriNavCon-right--item svg {
+  color: #9e9ea7;
+  vertical-align: middle;
+  margin-right: 0px;
+}
+.icon-18 {
+  width: 18px;
+  height: 18px;
 }
