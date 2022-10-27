@@ -12,3 +12,8 @@ body {
   flex-direction: column;
   overflow-x: hidden;
 }
+
+ol,
+ul {
+  list-style: none;
+}
