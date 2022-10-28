@@ -1,0 +1,103 @@
+.DriBody-main {
+  box-sizing: border-box;
+  padding: 64px 120px;
+}
+
+.DriBody-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1172px;
+  margin: auto;
+}
+
+/* Header */
+
+.DriBodyCon-header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DriBodyCon-header--user {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.DriBodyCon-header--user--img {
+  display: inline-block;
+  position: relative;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.DriBodyCon-header--user--img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.DriBodyCon-header--user--details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.DriBodyCon-header--user--details .title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.DriBodyCon-header--user--details .actions {
+  width: 100%;
+}
+
+.DriBodyCon-header--user--details .actions * {
+  margin-right: 6px;
+}
+
+.DriBodyCon-header--user--details .actions .profile-message a {
+  color: #ea4c89;
+}
+
+.DriBodyCon-header--actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DriBodyCon-header--actions ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DriBodyCon-header--actions li {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.DriBodyCon-header--actions .save {
+  background: #f3f3f4;
+  color: #0d0c22;
+  margin-right: 16px;
+}
+
+.DriBodyCon-header--actions svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  fill: currentColor;
+}
+
+/* Carousel */
+
+.DriBodyCon-images {
+  margin: 40px -16px 0;
+}

@@ -22,3 +22,7 @@
   font-weight: 500;
   line-height: 20px;
 }
+
+.driD-flex {
+  display: flex;
+}
