@@ -15,7 +15,7 @@ const Description = () => {
           Let's create something amazing together! 🧑&zwj;🎨
           <br />
           Feel free to contact me -{" "}
-          <a href="mailto:ertuken@gmail.com" rel="noreferrer nofollow">
+          <a href="#">
             ertuken@gmail.com
           </a>
         </p>
@@ -23,7 +23,7 @@ const Description = () => {
       <div className="DriBodyCon-contact">
         <div className="avatar">
           <span></span>
-          <a class="url" rel="contact" title="Eren ツ" href="/ertuken">
+          <a class="url" rel="contact" title="Eren ツ" href="#">
             <picture>
               <img
                 alt="Eren ツ"

@@ -7,7 +7,7 @@ const Related = () => {
     <div className="DriBodyCon-related">
       <div className="DriBodyCon-related-title">
         <h3>More from Eren ツ</h3>
-        <a href="/ertuken">View profile</a>
+        <a href="#">View profile</a>
       </div>
       <div className="DriBodyCon-related-items">
         <div class="content-wrapper">
