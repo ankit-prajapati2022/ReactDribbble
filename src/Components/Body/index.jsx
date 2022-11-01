@@ -2,6 +2,8 @@ import React from "react";
 
 import Carousel from "./Carousel";
 import Header from "./Header";
+import Description from "./Description";
+import Related from "./Related";
 
 import "./Styles.css";
 
@@ -12,6 +14,8 @@ const Index = () => {
         <div className="DriBody-container">
           <Header />
           <Carousel />
+          <Description />
+          <Related />
         </div>
       </div>
     </div>
